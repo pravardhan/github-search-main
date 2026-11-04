@@ -1,3 +1,10 @@
-export default function App() {
-  return <div style={{ padding: '2rem' }}>👋 Your implementation goes here.</div>;
-}
+import "./_styles/App.css"
+import Router from "./routes/Router"
+
+const App = () => (
+  <div className="app">
+    <Router />
+  </div>
+)
+
+export default App
